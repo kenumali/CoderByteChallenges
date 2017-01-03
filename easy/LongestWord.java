@@ -7,7 +7,7 @@ If there are two or more words that are the same length, return the first word f
 Ignore punctuation and assume sen will not be empty. 
 */
 
-class Main {  
+public class LongestWord {  
   public static String LongestWord(String sen) { 
     String regex = "[^a-zA-Z0-9]";
     String[] words = sen.replaceAll(regex, " ").split(" ");
