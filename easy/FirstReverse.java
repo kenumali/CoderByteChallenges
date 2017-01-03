@@ -9,7 +9,6 @@ For example: if the input string is "Hello World and Coders" then your program s
 class Main {  
   public static String FirstReverse(String str) { 
     return new StringBuilder(str).reverse().toString();
-    
   } 
   
   public static void main (String[] args) {  
@@ -17,5 +16,4 @@ class Main {
     Scanner s = new Scanner(System.in);
     System.out.print(FirstReverse(s.nextLine())); 
   }   
-  
 }
