@@ -7,7 +7,7 @@ Have the function FirstFactorial(num) take the num parameter being passed and re
 For the test cases, the range will be between 1 and 18 and the input will always be an integer.
 */
 
-class Main {  
+public class FirstFactorial {  
   public static int FirstFactorial(int num) { 
     int factorial = 1;
     for(int i = 1; i <= num; i++) {
